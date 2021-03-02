@@ -10,6 +10,8 @@ import Login from './components/pages/Login'
 import Listing from './components/pages/Listing'
 import PrivateRoute from './components/shared/PrivateRoute'
 
+import ReactFontFace from 'react-font-face'
+
 function App() {
   return (
    <BrowserRouter>
