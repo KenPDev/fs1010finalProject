@@ -8,7 +8,8 @@ const Navigation = () => {
     const toggle = () => setIsOpen(!isOpen)
 
     return (
-        <Navbar dark color="dark" expand="md" fixed="top">
+        //<Navbar dark color="dark" expand="md" fixed="top">
+        <Navbar style={{backgroundColor: '#f1f1f1'}} expand="md" fixed="top">
             <Container>
             <NavbarBrand href="">Example Portfolio Site</NavbarBrand>
             <NavbarToggler onClick={toggle} />

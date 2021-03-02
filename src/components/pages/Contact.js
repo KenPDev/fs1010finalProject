@@ -3,6 +3,7 @@ import { Form, FormGroup, Col, Input, Label, Button, Container, CardBody, Card, 
 
 
 
+
 const Contact = () => {
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")

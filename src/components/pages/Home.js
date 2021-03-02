@@ -1,16 +1,19 @@
 import React from 'react'
 import { Container, Row, Col, Button, CardBody, CardTitle, CardText, CardFooter, Card } from 'reactstrap'
-
+import image1 from './P1000003.JPG'
 const Home = () => {
     return(
         <Container>
             <Row className="my-5">
                 <Col lg="7">
-                    <img className="img-fluid rounded mb-4 mb-lg-0" src="http://placehold.it/900x400" alt="" />
+<img src={image1} className="img-fluid rounded mb-4 mb-lg-0" alt="blue bottle" />
                 </Col>
                 <Col lg="5">
-                    <h1 className="font-weight-light">Business Name or Tagline</h1>
-                    <p>This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want!</p>
+                    <h1 className="font-weight-light">Ken Pink Multimedia</h1>
+                    <p>I studied creative writing and am trained as a Technical Writer. I like videography and video editing, photography and graphics editing and am a musician. I am interested in creating multimedia web content. At my last job I was hired as a Multimedia Web Developer and managed a technical support knowledge base.</p>
+
+
+
                     <Button color="primary">Call to Action!</Button>
                 </Col>
             </Row>
