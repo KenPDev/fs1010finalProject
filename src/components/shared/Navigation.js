@@ -16,7 +16,7 @@ const Navigation = () => {
             <Collapse isOpen={isOpen} navbar>
                 <Nav className="ml-auto" navbar>
                     <NavItem>
-                        <NavLink tag={RouteLink} to="/">Home</NavLink>
+                        <NavLink className="unique" tag={RouteLink} to="/">Home</NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink tag={RouteLink} to="/about">About Me</NavLink>

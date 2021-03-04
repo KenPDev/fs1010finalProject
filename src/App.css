@@ -11,4 +11,10 @@ body {
   font-family: 'MyFont';
 }
 
+a {
+  color: green;
+}
 
+a.unique {
+  color: red;
+}
