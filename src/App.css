@@ -2,3 +2,19 @@ body {
   padding-top: 70px;
 }
 
+@font-face {
+  font-family: 'MyFont';
+  src: local('MyFont'), url(./fonts/AkayaTelivigala-Regular.ttf) format('truetype');
+}
+
+body {
+  font-family: 'MyFont';
+}
+
+a {
+  color: green;
+}
+
+a.unique {
+  color: red;
+}

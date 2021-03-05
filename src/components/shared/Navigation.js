@@ -16,13 +16,16 @@ const Navigation = () => {
             <Collapse isOpen={isOpen} navbar>
                 <Nav className="ml-auto" navbar>
                     <NavItem>
-                        <NavLink tag={RouteLink} to="/">Home</NavLink>
+                        <NavLink className="unique" tag={RouteLink} to="/">Home</NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink tag={RouteLink} to="/about">About Me</NavLink>
                     </NavItem>
                     <NavItem>
                        <NavLink tag={RouteLink} to="/contact">Contact Us</NavLink>
+                    </NavItem>
+                    <NavItem>
+                       <NavLink tag={RouteLink} to="/contact2">Contact Us</NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink tag={RouteLink} to="/submissions">Submissions</NavLink>
