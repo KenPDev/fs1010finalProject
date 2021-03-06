@@ -1,6 +1,8 @@
 import React from 'react'
 import { Container, Row, Col, Button, CardBody, CardTitle, CardText, CardFooter, Card } from 'reactstrap'
 import image1 from './P1000003.JPG'
+//import logo from '../../../../'
+import {gradient} from '../../../src/index.css'
 const Home = () => {
     return(
         <Container>
@@ -17,7 +19,7 @@ const Home = () => {
                     <Button color="primary">Call to Action!</Button>
                 </Col>
             </Row>
-            <Card className="text-white bg-secondary my-5 py-4 text-center">
+            <Card className="gradient">
                 <CardBody>
                     <CardText><p className="text-white m-0">This call to action card is a great place to showcase some important information or display a clever tagline!</p></CardText>
                 </CardBody>

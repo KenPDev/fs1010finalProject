@@ -9,14 +9,14 @@ const Navigation = () => {
 
     return (
         //<Navbar dark color="dark" expand="md" fixed="top">
-        <Navbar style={{backgroundColor: '#f1f1f1'}} expand="md" fixed="top">
+        <Navbar style={{backgroundColor: '#007bff'}} expand="md" fixed="top">
             <Container>
             <NavbarBrand href="">Example Portfolio Site</NavbarBrand>
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
                 <Nav className="ml-auto" navbar>
                     <NavItem>
-                        <NavLink className="unique" tag={RouteLink} to="/">Home</NavLink>
+                        <NavLink tag={RouteLink} to="/">Home</NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink tag={RouteLink} to="/about">About Me</NavLink>
