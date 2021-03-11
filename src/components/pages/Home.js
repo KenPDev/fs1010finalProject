@@ -53,13 +53,13 @@ const Home = () => {
                 </Col>
                 <Col md="4" className="mb-5"  style={{paddingTop:"10px"}}>
                     <Card >
-                    <img src={crows} className="img-fluid rounded mb-4 mb-lg-0" alt="crows gis" />
+                    <img src={crows} className="img-fluid rounded mb-4 mb-lg-0" alt="crows gif" />
                         <CardBody>
                             <CardTitle><h2>Creative Port folio</h2></CardTitle>
                             <CardBody>Some animated GIFs</CardBody>
                         </CardBody>
                         <CardFooter>
-                            <Button color="primary" size="sm">Go to Portfolio</Button>
+                            <Button color="primary" size="sm"  href="portfolioCreative">Go to Portfolio</Button>
                         </CardFooter>
                     </Card>
                 </Col>
