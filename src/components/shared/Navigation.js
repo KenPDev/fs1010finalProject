@@ -25,6 +25,9 @@ const Navigation = () => {
                        <NavLink tag={RouteLink} to="/contact2">Contact Us</NavLink>
                     </NavItem>
                     <NavItem>
+                       <NavLink tag={RouteLink} to="/login">Login</NavLink>
+                    </NavItem>
+                    <NavItem>
                         <NavLink tag={RouteLink} to="/submissions">Submissions</NavLink>
                     </NavItem>
                 </Nav>

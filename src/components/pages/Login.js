@@ -12,7 +12,7 @@ const Login = () => {
     const loginSubmit = async event => {
         
         event.preventDefault()
-        const response = await fetch('http://localhost:4000/auth', {
+        const response = await fetch('/auth', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',
@@ -24,9 +24,9 @@ const Login = () => {
         if (response.status >= 400) {
             setAuth(false)
         } else {
-            sessionStorage.setItem('token', payload.token)
+            sessionStorage.setItem('token', payload)
 
-            let { from } = location.state || { from: { pathname: "/" } };
+            let { from } = { from: { pathname: "/submissions" } };
             history.replace(from);
         }
     }

@@ -21,6 +21,7 @@
   "homepage": "https://gitlab.com/ken_p/test-1020-finalproject#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
     "esm": "^3.2.25",
     "express": "^4.17.1",
     "file-system": "^2.2.2",

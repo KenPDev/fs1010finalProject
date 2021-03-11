@@ -3,7 +3,7 @@ import router from './src/routers.js'
 import errorHandler from './src/middleware/errorHandler'
 
 const app = express()
-const port = 3000
+const port = 3001
 
 app.use(express.json())
 
