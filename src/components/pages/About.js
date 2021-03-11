@@ -19,10 +19,8 @@ const About = () => {
                 <Button color="primary" href="/contact">Contact Me</Button>
             </Col>
         </Row>
-        <Col lg="5">
-            <br></br>
-            <br></br>
-            <br></br>
+        <Col lg="5" style={{padding:"auto"}}>
+  
         </Col>
     </Container>
     )

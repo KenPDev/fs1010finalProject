@@ -12,7 +12,7 @@ const Home = () => {
     return(
         <Container>
             <Row className="my-5"  style={{backgroundColor: '#D6EAF8', alignItems:'center'}}>
-            <Col lg="5" style={{backgroundColor: '#D6EAF8'}}>
+                <Col lg="5" style={{backgroundColor: '#D6EAF8'}}>
                     <h1 className="font-weight-light">Ken Pink Multimedia</h1>
                     <p>I studied creative writing and am trained as a Technical Writer. </p>
                     <Button color="secondary">Call to Action!</Button>

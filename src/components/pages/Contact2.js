@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-//import { Form, FormGroup, Col, Input, Label, Button, Container, CardBody, Card, CardText } from 'reactstrap'
+import { Form, FormGroup, Col, Input, Label, Button, Container, CardBody, Card, CardText } from 'reactstrap'
 
 const Contact2 = () => { // eslint-disable-line no-unused-vars
     const [firstName, setFirstName] = useState("")
@@ -47,6 +47,8 @@ const handleSubmit = async (event) => {
     }
 }
 return (
+    <Container>
+        <Card style={{backgroundColor: 'gold', alignItems:'center', borderStyle:'none', paddingBottom:'310px', paddingTop:'50px'}}>
     <main className="contactPage">
         <h2>Contact Form</h2>
         <p>Thank you for your interest. Please contact me by filling out and submitting the form below. I will get back to you as soon as possible.</p>
@@ -73,6 +75,8 @@ return (
             </form>
         </section>
     </main>
+    </Card>
+    </Container>
     )
 }
 
