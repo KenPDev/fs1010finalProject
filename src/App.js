@@ -10,8 +10,7 @@ import Contact2 from './components/pages/Contact2'
 import Login from './components/pages/Login'
 import Listing from './components/pages/Listing'
 import PrivateRoute from './components/shared/PrivateRoute'
-
-import ReactFontFace from 'react-font-face'
+import portfolioWork from './components/pages/portfolioWork'
 
 function App() {
   return (
@@ -22,6 +21,8 @@ function App() {
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/contact2" component={Contact2} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/portfolioWork" component={portfolioWork} />
           <Route exact path="/login" component={Login} />
           <PrivateRoute path="/submissions">
             <Listing />

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Login Prompt</title>
+	<script type="text/javascript">
+	let userName = prompt("What is your name?");
+	if (userName == "Admin") 
+		{
+			let userPassword = prompt("What is your password?");
+			if (userPassword == "TheMaster")
+			{
+				alert('Welcome Master!');
+			}
+				else if (userPassword == '' || userPassword == null)
+			{
+				alert("You be cancelled.");
+			}
+				else
+			{
+				alert("Wrong password dude.");
+			}
+		}
+	else if (userName == '' || userName == null)
+		{
+			alert ("Sorry, cancelled.");
+		}
+	else
+		{
+			alert ("I don't know you.");
+		}
+
+
+</script>
+</head>
+<body>
+</body>
+</html>

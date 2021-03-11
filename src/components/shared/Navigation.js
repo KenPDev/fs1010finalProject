@@ -9,9 +9,9 @@ const Navigation = () => {
 
     return (
         //<Navbar dark color="dark" expand="md" fixed="top">
-        <Navbar style={{backgroundColor: '#007bff'}} expand="md" fixed="top">
+        <Navbar style={{backgroundColor: '#6c757d'}} expand="md" fixed="top">
             <Container>
-            <NavbarBrand href="">Example Portfolio Site</NavbarBrand>
+            <NavbarBrand style={{backgroundColor: '#6c757d'}}href="">Example Portfolio Site</NavbarBrand>
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
                 <Nav className="ml-auto" navbar>

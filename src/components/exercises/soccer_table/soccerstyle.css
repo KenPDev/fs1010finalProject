@@ -1,0 +1,43 @@
+body {
+    background-color: lightgrey;
+}
+
+#tableDiv {
+    padding-left: 100px;
+}
+
+h1 { 
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+    background-color: gold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tr:nth-child(odd) {
+    background-color: greenyellow;
+ }
+
+tr:nth-child(even) {
+   background-color: aqua;
+}
+
+tr:hover {
+    background-color: grey;
+}
+
+td {
+    padding: 5px 0px 5px 0px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    border: 1px solid black;
+    padding: 20px 20px 20px 20px;
+    background-color: cornsilk;
+}
+

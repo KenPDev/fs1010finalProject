@@ -1,9 +1,6 @@
 import React, { useState } from 'react'
 import { Form, FormGroup, Col, Input, Label, Button, Container, CardBody, Card, CardText } from 'reactstrap'
 
-
-
-
 const Contact = () => {
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")

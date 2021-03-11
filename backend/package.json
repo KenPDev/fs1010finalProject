@@ -1,0 +1,33 @@
+{
+  "name": "test-1020-finalproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": "true",
+  "scripts": {
+    "start": "node -r esm index.js",
+    "dev": "nodemon -r esm index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/ken_p/test-1020-finalproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/ken_p/test-1020-finalproject/issues"
+  },
+  "homepage": "https://gitlab.com/ken_p/test-1020-finalproject#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "file-system": "^2.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
