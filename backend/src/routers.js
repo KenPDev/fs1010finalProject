@@ -1,20 +1,17 @@
 import express from 'express'
-import contactList from './contact_form.js'
-import usersIDs from './usersIDs_form.js'
 import { v4 as uuidv4 } from 'uuid'
 import verifyToken from './middleware/jwtVerify'
 import entriesDB from '../data/entries.json'
-import usersDB from '../data/users.json'
 import { readEntries, writeEntries, readUsers, writeUsers } from './middleware/jsonHandler'
+import contactList from './contact_form.js'
+import usersIDs from './usersIDs_form.js'
+import usersDB from '../data/users.json'
 
 const router = express.Router()
 const jwt = require('jsonwebtoken')
 const privateKey = "shhhhh"
 const bcrypt = require("bcrypt")
 const saltRounds = 10
-//const myPlaintexPassword = "s0//P4$$w0rD"
-
-
 
 router.post('/contact_form/entries', function (req, res) {
     const newContact = {
@@ -40,37 +37,6 @@ router.post('/contact_form/entries', function (req, res) {
             return res.status(400).json({message: "validation error", invalid: (errors)})    }
         })})
    
-/*COULDN'T MAKE IT WORK
-           router.post('/contact_form/entries', function (req, res, next) {
-            const newContact = {
-            id: uuidv4(),
-            name: req.body.name,
-            email: req.body.email,
-            phoneNumber: req.body.phoneNumber,
-            content: req.body.content
-            }
-            let errors = []
-                readEntries().then((entriesDB) => { 
-                if (newContact.name && newContact.email && newContact.phoneNumber && newContact.content) 
-                entriesDB.push(newContact)
-                writeEntries(entriesDB)
-                return res.status(201).json(newContact) 
-                //next('route')
-                    next() 
-                    },
-                    function (req, res, next) {
-                    if (!newContact.name) {
-                        errors.push("name") }
-                    if (!newContact.email) {
-                        errors.push("email") }
-                    if (!newContact.phoneNumber) {
-                        errors.push("phoneNumber") } 
-                    if (!newContact.content) {
-                    errors.push("content") }
-                    console.log(errors)
-                    return res.status(400).json({message: "validation error", invalid: (errors)}) })})
-*/
-
 router.post('/users', (req, res) => {
     const userWithPassword
      = {
@@ -121,8 +87,6 @@ router.post('/auth', async (req, res) => {
     }
 })
         
-
-
 router.get('/contact_form/entries', verifyToken, (req, res) => {
     readEntries().then((items) => {
     return res.status(201).json(entriesDB) })

@@ -35,10 +35,10 @@ const Login = () => {
         <Container>
         {!auth && 
             <Card className="text-white bg-primary my-5 py-4 text-center">
-            <CardBody>
-                <CardText className="text-white m-0">Invalid credentials, please try again</CardText>
-            </CardBody>
-        </Card>
+              <CardBody>
+                  <CardText className="text-white m-0">Invalid credentials, please try again</CardText>
+              </CardBody>
+            </Card>
         }
         <Form className="my-5" onSubmit={loginSubmit}>
           <Row form>

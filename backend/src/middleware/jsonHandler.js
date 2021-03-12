@@ -1,9 +1,5 @@
 "use strict";
 
-//require("dotenv").config();
-
-// None of these need to be npm installed as they come with Node.js.
-
 import util from "util";
 import fs from "fs";
 import path from "path";
