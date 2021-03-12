@@ -48,7 +48,7 @@ const handleSubmit = async (event) => {
 }
 return (
     <Container>
-        <Card style={{backgroundColor: 'gold', alignItems:'center', borderStyle:'none', paddingBottom:'310px', paddingTop:'50px'}}>
+        <Card style={{backgroundColor: 'gainsboro', alignItems:'center', borderStyle:'none', paddingBottom:'310px', paddingTop:'20px'}}>
     <main className="contactPage">
         <h2>Contact Form</h2>
         <p>Thank you for your interest. Please contact me by filling out and submitting the form below. I will get back to you as soon as possible.</p>

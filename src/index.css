@@ -12,13 +12,6 @@ code {
     monospace;
 }
 
-/*
-This didn't work. Didn't want this colour, just testing
-.navbar-custom {
-  background-color: #ff5500;
-}
-*/
-
 .gradient
 {
     height:150px;
@@ -27,7 +20,6 @@ This didn't work. Didn't want this colour, just testing
     font-size:30px;
     background: linear-gradient(130deg, #D6EAF8, #3498DB, #34495E);
     background-size: 200% 200%;
-
     -webkit-animation: Animation 5s ease infinite;
     -moz-animation: Animation 5s ease infinite;
     animation: Animation 5s ease infinite;
@@ -49,5 +41,6 @@ This didn't work. Didn't want this colour, just testing
     100%{background-position:10% 0%}
 }
 
-
-
+.footerColor {
+  background-color: lightsteelblue;
+}

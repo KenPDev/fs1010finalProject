@@ -55,7 +55,7 @@ const Login = () => {
               </FormGroup>
             </Col>
           </Row>
-          <Button color="success">Sign in</Button>
+          <Button color="primary">Sign in</Button>
         </Form></Container>
     )
 }
