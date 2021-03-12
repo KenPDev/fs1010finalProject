@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container, Row, Col, Button } from 'reactstrap'
-//import image1 from './P1000003.JPG'
 import samplePDF from '../../images/WritingExamples.pdf'
 
 const portfolioWork = () => {

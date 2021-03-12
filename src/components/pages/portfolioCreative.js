@@ -1,9 +1,6 @@
 import React from 'react'
-import { Container, Row, Col, Button } from 'reactstrap'
+import { Container, Row } from 'reactstrap'
 import crows from '../../images/crow1.gif'
-import seagull from '../../images/seagull_4.gif'
-
-
 
 const portfolioCreative = () => {
   return (

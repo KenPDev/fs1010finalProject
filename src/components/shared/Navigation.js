@@ -21,7 +21,7 @@ const Navigation = () => {
                         <NavLink tag={RouteLink} to="/about">About Me</NavLink>
                     </NavItem>
                     <NavItem>
-                       <NavLink tag={RouteLink} to="/contact2">Contact Us</NavLink>
+                       <NavLink tag={RouteLink} to="/contact2">Contact Me</NavLink>
                     </NavItem>
                     <NavItem>
                        <NavLink tag={RouteLink} to="/login">Login</NavLink>

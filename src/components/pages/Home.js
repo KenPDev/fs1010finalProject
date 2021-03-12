@@ -3,7 +3,6 @@ import { Container, Row, Col, Button, CardBody, CardTitle, CardText, CardFooter,
 import image1 from '../../images/P1000003-400x300.JPG'
 import crows from '../../images/crow1.gif'
 import portal from '../../images/PortalInterface.png'
-import yorkCourses from '../../images/yorkCourses2.png'
 
 const Home = () => {
     return(
@@ -26,8 +25,7 @@ const Home = () => {
                    </CardText>
                 </CardBody>
             </Card>
-            <Row style={{justifyContent: 'center', alignItems: 'center'}}>
-
+            <Row style={{justifyContent: 'center', alignItems: 'center', paddingBottom: '50px'}}>
                 <Col md="4" className="mb-5"  style={{paddingTop:"10px"}}>
                     <Card style={{paddingTop:"10px"}}>
                     <img src={portal} className="img-fluid rounded mb-4 mb-lg-0" alt="support site landing page" style={{paddingBottom:'28px'}} />
