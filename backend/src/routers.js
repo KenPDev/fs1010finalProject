@@ -3,9 +3,6 @@ import { v4 as uuidv4 } from 'uuid'
 import verifyToken from './middleware/jwtVerify'
 import entriesDB from '../data/entries.json'
 import { readEntries, writeEntries, readUsers, writeUsers } from './middleware/jsonHandler'
-import contactList from './contact_form.js'
-import usersIDs from './usersIDs_form.js'
-import usersDB from '../data/users.json'
 
 const router = express.Router()
 const jwt = require('jsonwebtoken')

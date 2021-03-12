@@ -43,7 +43,7 @@ const Home = () => {
                     <img src={crows} className="img-fluid rounded mb-4 mb-lg-0" alt="crows gif" />
                         <CardBody>
                             <CardTitle><h2>Creative Port folio</h2></CardTitle>
-                            <CardBody>Some animated GIFs</CardBody>
+                            <CardBody>An animated GIFs (more to come)</CardBody>
                         </CardBody>
                         <CardFooter>
                             <Button color="primary" size="sm"  href="portfolioCreative">Go to Portfolio</Button>

@@ -52,7 +52,7 @@ return (
     <main className="contactPage">
         <h2>Contact Form</h2>
         <p>Thank you for your interest. Please contact me by filling out and submitting the form below. I will get back to you as soon as possible.</p>
-        <section class="contactBox">
+        <section className="contactBox">
             <form name="myForm" onSubmit={handleSubmit}>
                 <label for="firstName"><b>First Name</b></label>
                 <br /><input type="text" value={firstName} onChange={e => setFirstName(e.target.value)} />
