@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Form, FormGroup, Col, Input, Label, Button, Container, CardBody, Card, CardText } from 'reactstrap' // eslint-disable-line no-unused-vars
 
-const Contact2 = () => { // eslint-disable-line no-unused-vars
+const Contact = () => { // eslint-disable-line no-unused-vars
     const [firstName, setFirstName] = useState("")
     const [lastName, setLastName] = useState("")
     const [emailAddress, setEmailAddress] = useState("")
@@ -80,4 +80,4 @@ return (
     )
 }
 
-    export default Contact2
+    export default Contact

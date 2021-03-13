@@ -14,7 +14,7 @@ const About = () => {
                     <h1 className="font-weight-light">About Me</h1>
                     <p>I am taking Full Stack Web Development to build on the skills I already have to help me continue working in an industry that I really enjoy. </p>
                     <p>I am a creative person more than a technical one but am working on it.</p>
-                    <Button color="primary" href="/contact2">Contact Me</Button>
+                    <Button color="primary" href="/contact">Contact Me</Button>
                 </Col>
             </Row>
         </Container>

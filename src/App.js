@@ -5,7 +5,7 @@ import Footer from './components/shared/footer'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Home from './components/pages/Home'
 import About from './components/pages/About'
-import Contact2 from './components/pages/Contact2'
+import Contact from './components/pages/Contact'
 import Login from './components/pages/Login'
 import Listing from './components/pages/Listing'
 import PrivateRoute from './components/shared/PrivateRoute'
@@ -19,7 +19,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
-          <Route exact path="/contact2" component={Contact2} />
+          <Route exact path="/contact" component={Contact} />
           <Route exact path="/portfolioWork" component={portfolioWork} />
           <Route exact path="/portfolioCreative" component={portfolioCreative} />
           <Route exact path="/login" component={Login} />
