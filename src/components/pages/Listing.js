@@ -3,7 +3,6 @@ import { Container, Row, Table, Button } from 'reactstrap'
 import parseJwt from '../../helpers/authHelper'
 import { useHistory } from "react-router-dom";
 
-
 const Listings = () => {
     let history = useHistory();
     const token = sessionStorage.getItem('token')

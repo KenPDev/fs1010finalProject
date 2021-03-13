@@ -49,33 +49,33 @@ const handleSubmit = async (event) => {
 return (
     <Container>
         <Card style={{backgroundColor: 'gainsboro', alignItems:'center', borderStyle:'none', paddingBottom:'310px', paddingTop:'20px'}}>
-    <main className="contactPage">
-        <h2>Contact Form</h2>
-        <p>Thank you for your interest. Please contact me by filling out and submitting the form below. I will get back to you as soon as possible.</p>
-        <section className="contactBox">
-            <form name="myForm" onSubmit={handleSubmit}>
-                <label for="firstName"><b>First Name</b></label>
-                <br /><input type="text" value={firstName} onChange={e => setFirstName(e.target.value)} />
-                <br /><br />
-                
-                <label for="lastName"><b>Last Name</b></label>
-                <br /><input type="text" value={lastName} onChange={e => setLastName(e.target.value)} />
-                <br /><br />
-                
-                <label for="myEmail"><b>Email</b></label>
-                <br /><input type="email"  value={emailAddress} onChange={e => setEmailAddress(e.target.value)} />
-                <br /><br />
-                
-                <label for="comments"><b>Why you are contacting me?</b></label>
-                <br /><input type="textarea" value={comments} rows="5" cols="50" onChange={e => setcomments(e.target.value)} />
-                <br /><br />
+            <main className="contactPage">
+                <h2>Contact Form</h2>
+                <p>Thank you for your interest. Please contact me by filling out and submitting the form below. I will get back to you as soon as possible.</p>
+                <section className="contactBox">
+                    <form name="myForm" onSubmit={handleSubmit}>
+                        <label for="firstName"><b>First Name</b></label>
+                        <br /><input type="text" value={firstName} onChange={e => setFirstName(e.target.value)} />
+                        <br /><br />
+                        
+                        <label for="lastName"><b>Last Name</b></label>
+                        <br /><input type="text" value={lastName} onChange={e => setLastName(e.target.value)} />
+                        <br /><br />
+                        
+                        <label for="myEmail"><b>Email</b></label>
+                        <br /><input type="email"  value={emailAddress} onChange={e => setEmailAddress(e.target.value)} />
+                        <br /><br />
+                        
+                        <label for="comments"><b>Why you are contacting me?</b></label>
+                        <br /><input type="textarea" value={comments} rows="5" cols="50" onChange={e => setcomments(e.target.value)} />
+                        <br /><br />
 
-                <input type="submit" value="Submit" />
-                <input type="reset" value="Reset"></input>
-            </form>
-        </section>
-    </main>
-    </Card>
+                        <input type="submit" value="Submit" />
+                        <input type="reset" value="Reset"></input>
+                    </form>
+                </section>
+            </main>
+        </Card>
     </Container>
     )
 }
